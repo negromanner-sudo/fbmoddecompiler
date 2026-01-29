@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\</OutputPath>
+    <AssemblyName>FbmodDecompiler</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference pre-built Frosty assemblies -->
+    <Reference Include="FrostySdk">
+      <HintPath>..\FrostyToolsuite\FrostySdk\bin\Release\FrostySdk.dll</HintPath>
+    </Reference>
+    <Reference Include="FrostyCore">
+      <HintPath>..\FrostyToolsuite\FrostyPlugin\bin\x64\Developer - Debug\FrostyCore.dll</HintPath>
+    </Reference>
+    <Reference Include="FrostyHash">
+      <HintPath>..\FrostyToolsuite\FrostyEditor\x64\Developer - Debug\FrostyHash.dll</HintPath>
+    </Reference>
+    <Reference Include="FrostyControls">
+      <HintPath>..\FrostyToolsuite\FrostyControls\bin\Developer\Debug\FrostyControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+</Project>
