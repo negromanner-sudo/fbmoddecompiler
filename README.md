@@ -8,9 +8,8 @@ A C# command-line tool that uses the Frosty SDK to properly decompile `.fbmod` f
 1. .NET Framework 4.8 SDK
 
 ### Steps
-1. Build FrostyToolsuite in Visual Studio (Release configuration)
-2. Build this project: `dotnet build`
-3. Copy required DLLs from FrostyToolsuite output to this project's output folder
+
+1. Build this project: `dotnet build`
 
 ## Usage
 ```
@@ -30,4 +29,5 @@ FbmodDecompiler.exe TapeTweaks.fbmod TapeTweaks.fbproject "C:\Games\Plants vs Zo
 ## Contact
 
 Discord: verionz
+
 
